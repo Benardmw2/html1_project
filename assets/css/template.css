@@ -1,0 +1,48 @@
+
+#nav {
+    list-style-type: none;
+overflow: hidden;
+    margin: 0;
+    padding: 5px;
+    position: fixed;
+    width: 100%;
+    background-color: dodgerblue;
+}
+#nav li{float: left;
+    list-style:none;
+  }
+#nav a{
+    padding: 0 10px 10px 0;
+    color: black;
+    text-decoration: none;
+    display: flex;
+}
+#nav a:hover{
+    background-color: aliceblue;
+}
+#form-container{
+            border: 2px solid dodgerblue;
+            width: 400px;
+            padding: 10px;
+            color: #801700;
+            background: #756969;
+        border-radius: 10px;
+        margin: auto;      }
+
+label{font-family: Chilanka;
+margin-bottom: 8px;
+    padding: 0;
+}
+button{background-color: coral;
+border-radius: 5px;
+color: darkblue;
+padding: 10px 15px;
+border: none;
+font-size: 16px}
+.text{ font-family: "Noto Mono";
+font-size: medium;
+padding: 0;
+    background-color: #e8e4e4;
+    width: 100%;}
+
+
