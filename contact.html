@@ -44,12 +44,12 @@ background-position: center;
     <hr>
       <div class="form-group">
         <label for="email">Email Address</label>
-        <input type="email" id="email" name="address">
+        <input type="email" id="email" name="address" required>
     </div>
       <hr>
        <div class="form-group">
         <label for="phone">Phone Number</label>
-        <input type="text" id="phone" name="no">
+        <input type="text" id="phone" name="no" required>
     </div>
       <hr>
     <div class="form-group">
@@ -68,9 +68,9 @@ background-position: center;
         <label>Mode of payment:</label>
         <label for="pay1">Cash</label>
         <input type="radio" id="pay1" name="pay">
-        <label for="pay2">Cheque</label><br>
+        <label for="pay2">Cheque</label>
         <input type="radio" id="pay2" name="pay">
-        <label for="pay3">Credit card</label>
+            <br> <label for="pay3">Credit card</label>
         <input type="radio" id="pay3" name="pay">
         <label for="pay4">Mpesa</label>
         <input type="radio" id="pay4" name="pay">
@@ -82,8 +82,8 @@ background-position: center;
     </div>
     <hr>
     <div class="form-group">
-        <button type="submit">Submit</button>
-    </div>
+        <input id="button" type="button" value="Submit" name="Submit">
+         </div>
 </div>
 </body>
 </html>
